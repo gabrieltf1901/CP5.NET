@@ -19,6 +19,11 @@ public class PacienteService
         _mapper = mapper;
     }
 
+    public PacienteService(IPacienteRepository repoMockObject, IMapper unitOfWork)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task<IEnumerable<PacienteDto>> GetAllAsync()
     {
         var entities = await _repository.GetAllAsync();
