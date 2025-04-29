@@ -1,0 +1,77 @@
+2025-04-29 19:07:24,854 [      4]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2025-04-29 19:07:24,897 [     47]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (IC-222.4437)
+2025-04-29 19:07:24,983 [    133]   INFO - #c.i.i.StartupUtil - JNA library (64-bit) loaded in 100 ms
+2025-04-29 19:07:24,998 [    148]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4437, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2025-04-29 19:07:25,003 [    153]   INFO - #c.i.i.StartupUtil - IDE: Qodana Community for JVM (build #QDJVMC-222.4437.162, 26 Oct 2022 04:04)
+2025-04-29 19:07:25,006 [    156]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4437, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2025-04-29 19:07:25,007 [    157]   INFO - #c.i.i.StartupUtil - OS: Linux (5.15.153.1-microsoft-standard-wsl2, amd64)
+2025-04-29 19:07:25,012 [    162]   INFO - #c.i.i.StartupUtil - JRE: 11.0.12+7-b1729.1 (JetBrains s.r.o.)
+2025-04-29 19:07:25,013 [    163]   INFO - #c.i.i.StartupUtil - JVM: 11.0.12+7-b1729.1 (OpenJDK 64-Bit Server VM)
+2025-04-29 19:07:25,016 [    166]   INFO - #c.i.i.StartupUtil - PID: 18
+2025-04-29 19:07:25,019 [    169]   INFO - #c.i.i.StartupUtil - WM detected: null, desktop: -
+2025-04-29 19:07:25,023 [    173]   INFO - #c.i.i.StartupUtil - JVM options: [-XX:ReservedCodeCacheSize=350m, -XX:MaxJavaStackTraceDepth=10000, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=5, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -ea, -Dsun.io.useCanonCaches=false, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dsun.tools.attach.tmp.only=true, -XX:MaxRAMPercentage=70, -Xlog:gc*:/data/results/log/gc.log, -Didea.platform.prefix=Qodana, -Didea.parent.prefix=Idea, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.config.path=/root/.config/idea, -Didea.system.path=/data/cache/idea/222, -XX:HeapDumpPath=/data/results/log/OOMheapdump.hprof, -XX:ErrorFile=/data/results/log/java_error_in_IDEA.log, -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005,quiet=y, -Djava.awt.headless=true, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-0000-0000-0000-000000000000, -Didea.headless.statistics.max.files.to.send=5000, -Didea.log.config.file=/opt/idea/bin/log.xml, -Didea.log.path=/data/results/log/, -Dinspect.save.project.settings=true, -Djava.net.useSystemProxies=true, -Dfus.internal.reduce.initial.delay=true, -Djb.vmOptionsFile=/opt/idea/bin/idea64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.strict.classpath=true, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IdeaIC2022.2, -Didea.jre.check=true, -Dsplash=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2025-04-29 19:07:25,024 [    174]   INFO - #c.i.i.StartupUtil - args: [inspect, qodana, --dump-options]
+2025-04-29 19:07:25,025 [    175]   INFO - #c.i.i.StartupUtil - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2025-04-29 19:07:25,026 [    176]   INFO - #c.i.i.StartupUtil - boot library path: /usr/lib/jvm/jbr/lib
+2025-04-29 19:07:25,039 [    189]   INFO - #c.i.i.p.PluginManager - Module kotlin.copyright is not enabled because dependency com.intellij.copyright is not available
+Module kotlin.features-trainer is not enabled because dependency training is not available
+Module kotlin.ml-completion is not enabled because dependency com.intellij.completion.ml.ranking is not available
+Module kotlin.grazie is not enabled because dependency tanvd.grazi is not available
+Module kotlin.coverage is not enabled because dependency Coverage is not available
+Module kotlin.jvm-debugger.sequence is not enabled because dependency org.jetbrains.debugger.streams is not available
+Module kotlin.jvm-decompiler is not enabled because dependency org.jetbrains.java.decompiler is not available
+Module kotlin-ultimate.javascript.nodeJs is not enabled because dependency NodeJS is not available
+Module kotlin-ultimate.javascript.debugger is not enabled because dependency JavaScriptDebugger is not available
+Module intellij.java.ide.customization/training is not enabled because dependency training is not available
+Module intellij.platform.images.copyright is not enabled because dependency com.intellij.platform.images is not available
+Module intellij.notebooks.visualization is not enabled because dependency com.intellij.platform.images is not available
+Module intellij.groovy/byte-code-viewer is not enabled because dependency ByteCodeViewer is not available
+Module intellij.vcs.git/terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module intellij.java.devkit is not enabled because dependency intellij.dev.psiViewer is not available
+Module intellij.devkit.images is not enabled because dependency com.intellij.platform.images is not available
+Module kotlin-ultimate.common-for-kotlin is not enabled because dependency com.intellij.nativeDebug is not available
+Module kotlin-ultimate.ultimate-native is not enabled because dependency kotlin-ultimate.common-for-kotlin is not available
+2025-04-29 19:07:25,043 [    193]   INFO - #c.i.i.StartupUtil - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/root/.config/idea
+  idea.system.path=/data/cache/idea/222
+  idea.plugins.path=/root/.config/idea/plugins
+  idea.log.path=/data/results/log
+2025-04-29 19:07:25,048 [    198]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Gradle (222.4437), Java IDE Customization (222.4437), JetBrains maven model api classes (222.4437), Maven (222.4437), Java (222.4437), IntelliLang (222.4437), Java Internationalization (222.4437), JUnit (222.4437), Gradle-Java (222.4437), Static Analysis Project (222.4437), XPathView + XSLT (222.4437), Groovy (222.4437), Git (222.4437), Plugin DevKit (222.4437), IDEA CORE (222.4437.162), Kotlin (222-1.7.10-release-334-IJ4437), Configuration Script (222.4437), Eclipse Interoperability (222.4437), Mercurial (222.4437), UI Designer (222.4437), JetBrains Repository Search (222.4437), Properties (222.4437), Lombok (222.4437), EditorConfig (222.4437), Ant (222.4437), Subversion (222.4437), TestNG (222.4437)
+2025-04-29 19:07:25,050 [    200]   INFO - #c.i.i.StartupUtil - CPU cores: 20; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1cd6c22e[Running, parallelism = 20, size = 20, active = 2, running = 2, steals = 30, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3b12ec4e
+2025-04-29 19:07:25,078 [    228]   INFO - #c.i.c.InspectionApplication - Command line arguments: [inspect, qodana, --dump-options]
+2025-04-29 19:07:25,097 [    247]   INFO - STDOUT - Qodana linter options:
+2025-04-29 19:07:25,098 [    248]   INFO - STDOUT -  -b,--baseline <arg>            Run Qodana in baseline mode - compares
+2025-04-29 19:07:25,099 [    249]   INFO - STDOUT -                                 actual report with baseline report
+2025-04-29 19:07:25,100 [    250]   INFO - STDOUT -     --baseline-include-absent   Add absent problems from baseline to
+2025-04-29 19:07:25,101 [    251]   INFO - STDOUT -                                 report
+2025-04-29 19:07:25,101 [    251]   INFO - STDOUT -  -c,--changes                   Analyze only local changes of project
+2025-04-29 19:07:25,102 [    252]   INFO - STDOUT -  -d,--source-directory <arg>    Absolute path to the project directory to
+2025-04-29 19:07:25,102 [    252]   INFO - STDOUT -                                 be analyzed. By default, the entire
+2025-04-29 19:07:25,103 [    253]   INFO - STDOUT -                                 project is analyzed.
+2025-04-29 19:07:25,104 [    254]   INFO - STDOUT -     --disable-sanity            Application will not run the inspections
+2025-04-29 19:07:25,105 [    255]   INFO - STDOUT -                                 configured by the 'sanity' profile. By
+2025-04-29 19:07:25,106 [    256]   INFO - STDOUT -                                 default, sanity checks are enabled.
+2025-04-29 19:07:25,107 [    257]   INFO - STDOUT -     --fail-threshold <arg>      Application will exit with 255 exit code
+2025-04-29 19:07:25,107 [    257]   INFO - STDOUT -                                 if problems count exceeds specified count
+2025-04-29 19:07:25,108 [    258]   INFO - STDOUT -  -n,--profile-name <arg>        Profile name to use in the application
+2025-04-29 19:07:25,108 [    258]   INFO - STDOUT -                                 run. A profile is either configured in the
+2025-04-29 19:07:25,109 [    259]   INFO - STDOUT -                                 project or is one of the embedded
+2025-04-29 19:07:25,109 [    259]   INFO - STDOUT -                                 ('empty', 'qodana.starter',
+2025-04-29 19:07:25,109 [    259]   INFO - STDOUT -                                 'qodana.recommended').
+2025-04-29 19:07:25,110 [    260]   INFO - STDOUT -  -p,--profile-path <arg>        Profile path to use in run configured in
+2025-04-29 19:07:25,110 [    260]   INFO - STDOUT -                                 the project
+2025-04-29 19:07:25,110 [    260]   INFO - STDOUT -     --run-promo <arg>           Set to 'true' to have the application run
+2025-04-29 19:07:25,111 [    261]   INFO - STDOUT -                                 the inspections configured by the 'promo'
+2025-04-29 19:07:25,111 [    261]   INFO - STDOUT -                                 profile; set to 'false' otherwise. By
+2025-04-29 19:07:25,111 [    261]   INFO - STDOUT -                                 default, a 'promo' run is enabled if the
+2025-04-29 19:07:25,112 [    262]   INFO - STDOUT -                                 application is executed with the 'default'
+2025-04-29 19:07:25,112 [    262]   INFO - STDOUT -                                 profile and is disabled otherwise.
+2025-04-29 19:07:25,112 [    262]   INFO - STDOUT -     --script <arg>              Application will use a specific script as
+2025-04-29 19:07:25,113 [    263]   INFO - STDOUT -                                 a scenario for Qodana execution.
+2025-04-29 19:07:25,113 [    263]   INFO - STDOUT -     --stub-profile <arg>        Path to fallback profile. Will be used if
+2025-04-29 19:07:25,113 [    263]   INFO - STDOUT -                                 profile isn't specified with other options
+2025-04-29 19:07:25,114 [    264]   INFO - STDOUT -                                 or qodana.yaml
+2025-04-29 19:07:25,114 [    264]   INFO - STDOUT -  -changes                       Deprecated: use instead --changes
+2025-04-29 19:07:25,114 [    264]   INFO - STDOUT -  -profileName <arg>             Deprecated: use --profile-name instead
+2025-04-29 19:07:25,114 [    264]   INFO - STDOUT -  -profilePath <arg>             Deprecated: use --profile-path instead
+2025-04-29 19:07:25,115 [    265]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

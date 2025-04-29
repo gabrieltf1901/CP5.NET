@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odontoprev", "Odontoprev\Odontoprev.csproj", "{D14F9164-301F-42C6-9637-1328D8DEB048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14F9164-301F-42C6-9637-1328D8DEB048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14F9164-301F-42C6-9637-1328D8DEB048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14F9164-301F-42C6-9637-1328D8DEB048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14F9164-301F-42C6-9637-1328D8DEB048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@Odontoprev_HostAddress = http://localhost:5221
+
+GET {{Odontoprev_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
