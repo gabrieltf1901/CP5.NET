@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odontoprev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1193686ff311de96a104bce072f7f07853a9447a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04853ac732bd97f99636ff83f56c32a7ea13b96a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odontoprev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odontoprev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,7 +32,7 @@ public class PacienteControllerTests
     [Fact]
     public async Task Create_ShouldReturnCreatedAtAction()
     {
-        var dto = new PacienteDto { Id = 10, Nome = "Novo" };
+        var dto = new PacienteDto { Id = 19, Nome = "Gabriel" };
 
         var result = await _controller.Create(dto);
 

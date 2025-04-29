@@ -23,8 +23,8 @@ public class PacienteServiceTests
     }
 
     [Theory]
-    [InlineData(1, "João")]
-    [InlineData(2, "Maria")]
+    [InlineData(31, "João")]
+    [InlineData(32, "Maria")]
     public async Task AddAsync_ShouldAddPaciente(int id, string nome)
     {
         var dto = new PacienteDto { Id = id, Nome = nome };
